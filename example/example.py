@@ -1,7 +1,8 @@
+
 from os_ios_prepare_ipa_file import ipa_preparer as ip
 
-ip.prepare_ipa_file("/Users/home/Desktop/padanie/PadaniForms 2021-07-26 13-01-13/apps/test/PadaniForms.ipa",
-                    "www.fuckMe.com/PadaniForms.ipa",
-                    "www.fuckMe.com/PadaniForms.html",
-                    "com.fuckme.ozshabat",
-                    "MyFuckingAppName")
+ip.prepare_ipa_file(ipa_file_path="path/to/ipa_file.ipa",
+                    ipa_file_path_in_server= "www.my_website.com/storage/ipa_file.ipa",
+                    html_file_path_in_server="www.my_website.com/pages/download_latest_version/download.html",
+                    bundle_identifier="com.app.bundleidentifier",
+                    app_name="MyAppName")

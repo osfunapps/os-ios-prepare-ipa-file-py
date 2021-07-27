@@ -5,7 +5,7 @@ setup(
     packages=['os_ios_prepare_ipa_file'],  # Choose the same as "name"
     version='1.00',  # Start with a small number and increase it with every change you make
     license='MIT',  # Chose a license from here: https://help.github.com/articles/licensing-a-repository
-    description='Will prepare an .ipa file for distribution in an HTTPS server ',  # Give a short description about your library
+    description='Will prepare an .ipa file for distribution in an HTTPS server',  # Give a short description about your library
     author='Oz Shabat',  # Type in your name
     author_email='support@os-apps.com',  # Type in your E-Mail
     url='https://github.com/osfunapps/os-ios-prepare-ipa-file-py',  # Provide either the link to your github or to your website
