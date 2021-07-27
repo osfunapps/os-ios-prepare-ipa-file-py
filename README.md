@@ -1,9 +1,9 @@
 Introduction
 ------------
 
-This module aim to prepare an .ipa file for distribution in an HTTPS server.
-It will create a .plist and .html files.
+This module aim to prepare an .ipa file for distribution in an HTTPS server.  
 
+It will create a .plist and .html files.  
 Afterwards, these files should be stored in a server (together with the .ipa file) to be downloaded from an iPad or iPhone.
 
 ## Installation
@@ -31,6 +31,7 @@ That's it.
 
 ## Links
 [GitHub - osapps](https://github.com/osfunapps)
+
 [GitHub - os-android-app-automation](https://github.com/osfunapps/os-android-app-automation-py)
 
 ## Licence
